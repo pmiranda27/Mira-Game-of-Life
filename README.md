@@ -46,7 +46,7 @@ For each cell:
 
 ### Option 1 – Live site
 1. Enter the live site (github pages):
-    ```https://pmiranda27.github.io/Mira-Game-of-Life/```
+    [https://pmiranda27.github.io/Mira-Game-of-Life/](https://pmiranda27.github.io/Mira-Game-of-Life/)
 
 ### Option 2 — Open locally
 1. Clone the repository:
