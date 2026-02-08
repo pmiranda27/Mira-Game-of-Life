@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.p5Canvas {
+    border: 1px solid black;
+}
+
+.wrapperIniciar {
+    width: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-bottom: 8px;
+
+    user-select: none;
+}
+
+.legendaItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.legendaIcon {
+    width: 20px;
+
+    border: 1px solid black;
+
+    aspect-ratio: 1;
+}
+
+#vazio {
+    background-color: white;
+}
+#vivo {
+    background-color: black;
+}
+
+
+.wrapperBotoes{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+}
+
+
+.botaoIniciar {
+    padding: 8px 16px;
+
+    border-radius: 10px;
+
+    margin-top: 8px;
+
+    user-select: none;
+}
+
+.botaoDesbloqueado {
+    border: 1px solid green;
+}
+.botaoDesbloqueado:hover {
+    background-color: rgba(0, 128, 0, .35);
+}
+.botaoDesbloqueado:active {
+    background-color: rgba(0, 128, 0, .65);
+}
+.botaoDesbloqueado:active > h3 {
+    color: white;
+}
+
+
+
+.botaoDesbloqueadoRandom {
+    border: 1px solid blue;
+}
+.botaoDesbloqueadoRandom:hover {
+    background-color: rgba(0, 0, 255, .35);
+}
+.botaoDesbloqueadoRandom:active {
+    background-color: rgba(0, 0, 255, .65);
+}
+.botaoDesbloqueadoRandom:active > h3 {
+    color: white;
+}
+
+.botaoBloqueado {
+    border: 1px solid black;
+}
+.botaoBloqueado:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.botaoBloqueado:active {
+    background-color: rgba(0, 0, 0, .55);
+}
+.botaoBloqueado:active > h3 {
+    color: white;
+}
