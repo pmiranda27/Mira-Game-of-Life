@@ -6,7 +6,7 @@ This Game of Life is a cellular simulation where, using simple rules, a (simplif
 
 ---
 
-## 🎮 About the Project
+## About the Project
 
 This project simulates a two-dimensional grid of cells that can be either **alive** or **dead**.  
 At each iteration (generation), every cell updates its state based on its neighboring cells, following the classic Game of Life rules.
@@ -18,7 +18,7 @@ The main goals of this project are:
 
 ---
 
-## 📜 Game of Life Rules
+## Game of Life Rules
 
 For each cell:
 
@@ -29,7 +29,7 @@ For each cell:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML / CSS**
 - **JavaScript**
@@ -42,7 +42,7 @@ For each cell:
 - [p5.js 2.0](https://beta.p5js.org/)
 - [p5.js Reference](https://p5js.org/reference/)
 
-## ▶️ How to Run
+## How to Run
 
 ### Option 1 – Live site
 1. Enter the live site (github pages):
